@@ -49,7 +49,13 @@ class ModulesTableSeeder extends Seeder
                 'slug' => 'parameter',
                 'created_at' => Carbon::now()->toDateTimeString(),
                 'updated_at' => Carbon::now()->toDateTimeString()
-            ]
+            ],
+            [
+                'name' => 'Страницы',
+                'slug' => 'page',
+                'created_at' => Carbon::now()->toDateTimeString(),
+                'updated_at' => Carbon::now()->toDateTimeString()
+            ],
         ]);
     }
 }
